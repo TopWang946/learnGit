@@ -4,10 +4,11 @@ Git has mutable index called stage.
 Git tracks changes of files.
 Creating a new branch is quick and simple.
 --no-ffi
-stage test
-cherry-pick
-new branch dev
-git clone
+git cherry-pick <commitId> # 复制一个特定的提交到当前分支
+git clone xxx
 git tag v1.0
 git merge <branch>
 git reset --hard <commitId>
+git stash
+git stash list
+git stash pop
